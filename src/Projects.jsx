@@ -36,10 +36,10 @@ const Projects = () => {
         </div>
       </div>
       <div data-aos="fade-up" className="project">
-        <img src={dodgeGame} className="project-Img" alt="project1" />
+        <img src={dodgeGame} className="project-Img" alt="project2" />
         <div className="project-description">
           <h3 className='project-title'>
-            Dodge Game
+            Dodge And Survive
             <IconContext.Provider value={{ color: 'white' }}>
               <a href={'https://github.com/will1213/DodgeGame'} target="_blank" rel="noopener noreferrer">
                 <FiGithub />
@@ -53,7 +53,7 @@ const Projects = () => {
         </div>
       </div>
       <div data-aos="fade-up" className="project">
-        <img src={pictionary} className="project-Img" alt="project2" />
+        <img src={pictionary} className="project-Img" alt="project3" />
         <div className="project-description">
           <h3 className='project-title'>
             Pictionary
@@ -71,7 +71,7 @@ const Projects = () => {
         </div>
       </div>
       <div data-aos="fade-up" className="project">
-        <img src={tracking} className="project-Img" alt="project3" />
+        <img src={tracking} className="project-Img" alt="project4" />
         <div className="project-description">
           <h3 className='project-title'>
             Assets Tracking System
@@ -88,7 +88,7 @@ const Projects = () => {
         </div>
       </div>
       <div data-aos="fade-up" className="project">
-        <img src={DownStair} className="project-Img" alt="project4" />
+        <img src={DownStair} className="project-Img" alt="project5" />
         <div className="project-description">
           <h3 className='project-title'>
             Down Stair Game
@@ -110,7 +110,7 @@ const Projects = () => {
         </div>
       </div>
       <div data-aos="fade-up" className="project">
-        <img src={StreamingServiceCompiler} className="project-Img" alt="project5" />
+        <img src={StreamingServiceCompiler} className="project-Img" alt="project6" />
         <div className="project-description">
           <h3 className='project-title'>
             Streaming Service Compiler
