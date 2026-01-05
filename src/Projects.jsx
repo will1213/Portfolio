@@ -7,7 +7,7 @@ import tracking from './assets/tracking.jpg';
 import StreamingServiceCompiler from './assets/StreamingServiceCompiler.png';
 import DownStair from './assets/DownStair.png';
 import whatToEat from './assets/whatToEat.png';
-
+import dodgeGame from './assets/dodgeGame.png';
 
 const Projects = () => {
   return (
@@ -33,6 +33,23 @@ const Projects = () => {
           <br />
           <p>Some highlights include price range, cuisine types. More importantly, it has a randomize feature that allow user to find a random resturant.</p>
           <p>Solving the problem of "Where are we going to eat?"</p>
+        </div>
+      </div>
+      <div data-aos="fade-up" className="project">
+        <img src={dodgeGame} className="project-Img" alt="project1" />
+        <div className="project-description">
+          <h3 className='project-title'>
+            Dodge Game
+            <IconContext.Provider value={{ color: 'white' }}>
+              <a href={'https://github.com/will1213/DodgeGame'} target="_blank" rel="noopener noreferrer">
+                <FiGithub />
+              </a>
+            </IconContext.Provider>
+          </h3>
+
+          <p>A game made with Pygame! The goal is to survive as long as possible. The enemy will keep coming and you have to dodge and kill them to survive.</p>
+          <br />
+          <p>Got inspired by the game "Vampire Survivors".</p>
         </div>
       </div>
       <div data-aos="fade-up" className="project">
