@@ -7,7 +7,7 @@ import tracking from './assets/tracking.jpg';
 import StreamingServiceCompiler from './assets/StreamingServiceCompiler.png';
 import DownStair from './assets/DownStair.png';
 import whatToEat from './assets/whatToEat.png';
-import dodgeGame from './assets/dodgeGame.png';
+import dodgeGame from './assets/dodgeGame.jpg';
 
 const Projects = () => {
   return (
